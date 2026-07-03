@@ -276,7 +276,7 @@ if st.button("💰 Predict Salary"):
 
         st.metric(
             "Estimated Salary",
-            f"${prediction:,.2f}"
+            f"Rs {prediction:,.2f}"
         )
 
     with col2:
